@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Laravel</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+
+    <!-- Styles / Scripts -->
+    <link rel="stylesheet" href="app-DnvqvT1e.css" />
+    <link rel="stylesheet" href="category-DSou5mCS.css" />
+    <link rel="stylesheet" href="content-BWezdQuT.css" />
+    <link rel="stylesheet" href="swiper-bundle-DrFcrWHL.css" />
+    <script type="module" src="app-BjCBnTiP.js"></script>
+    <script type="module" src="main-CqSBR0b3.js"></script>
+    <script type="module" src="screen-size-Z484b86h.js"></script>
+    <script type="module" src="particle-B4l6X8oe.js"></script>
+</head>
+<body class="flex justify-center items-center box">
+<div id="tsparticles"></div>
+<div id="slide" class="slide"></div>
+
+<div class="fixed top-0 w-full flex items-center justify-center min-h-[8dvh]">
+    <h1 class="text-2xl text-white font-bold absolute left-[4%] top-1/2 transform -translate-y-1/2">三重大学紹介</h1>
+    <aside class="flex items-center gap-4 absolute right-[2%] top-1/2 transform -translate-y-1/2">
+        <div class="btn-wrap" id="btn1">
+            <a class="btn btn-switch"><span>全画面</span></a>
+        </div>
+        <div class="btn-wrap hidden" id="btn2">
+            <a class="btn btn-switch"><span>全画面解除</span></a>
+        </div>
+        <div class="btn-wrap hidden" id="close_contents_btn">
+            <a class="btn btn-switch2"><span>閉じる</span></a>
+        </div>
+    </aside>
+    <p id="category" class="hidden text-xl text-white font-bold border-b border-solid border-white"></p>
+</div>
+
+<!-- 学部メニュー -->
+<section class="flex justify-center items-center h-full w-full" id="category_container">
+
+    <div class="swiper categorySwiper">
+        <div class="swiper-wrapper">
+            <!-- Swiper Slides -->
+            <div class="swiper-slide category-slide border border-solid border-black rounded-lg py-2 bg-slide-default" id="1">
+    <p class="text-center text-2xl border-b border-solid border-black w-[90%]">ドローン映像</p>
+    <img src="http://localhost/storage/img/lab-01.jpg" class="p-6"/>
+</div>
+            <div class="swiper-slide category-slide border border-solid border-black rounded-lg py-2 bg-slide-default" id="2">
+    <p class="text-center text-2xl border-b border-solid border-black w-[90%]">工学部研究室取材</p>
+    <img src="http://localhost/storage/img/lab-02.jpg" class="p-6"/>
+</div>
+            <div class="swiper-slide category-slide border border-solid border-black rounded-lg py-2 bg-slide-default" id="1">
+    <p class="text-center text-2xl border-b border-solid border-black w-[90%]">ドローン映像</p>
+    <img src="http://localhost/storage/img/lab-01.jpg" class="p-6"/>
+</div>
+            <div class="swiper-slide category-slide border border-solid border-black rounded-lg py-2 bg-slide-default" id="2">
+    <p class="text-center text-2xl border-b border-solid border-black w-[90%]">工学部研究室取材</p>
+    <img src="http://localhost/storage/img/lab-02.jpg" class="p-6"/>
+</div>
+        </div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="swiper-pagination category-pagination" style="position:fixed;bottom:2%;"></div>
+</section>
+
+
+<section id="animation_container" class="hidden justify-center items-center h-full w-full">
+    <div class="flex flex-col justify-center items-center">
+        <p class="text-center text-white"></p>
+        <img src="http://localhost/storage/img/lab-01.jpg" />
+    </div>
+</section>
+
+
+<section id="contents_container" class="hidden justify-center items-center h-full w-full py-20">
+    <div class="swiper contentSwiper">
+        <div class="swiper-wrapper" id="swiper_wrapper"></div>
+        <div class="swiper-pagination content-pagination" style="position:fixed;bottom:2%;"></div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-links@3/tsparticles.preset.links.bundle.min.js"></script>
+</body>
+</html>
