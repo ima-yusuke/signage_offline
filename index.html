@@ -11,14 +11,15 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
     <!-- Styles / Scripts -->
-    <link rel="stylesheet" href="app-DnvqvT1e.css" />
-    <link rel="stylesheet" href="category-DSou5mCS.css" />
-    <link rel="stylesheet" href="content-BWezdQuT.css" />
-    <link rel="stylesheet" href="swiper-bundle-DrFcrWHL.css" />
-    <script type="module" src="app-BjCBnTiP.js"></script>
-    <script type="module" src="main-CqSBR0b3.js"></script>
-    <script type="module" src="screen-size-Z484b86h.js"></script>
-    <script type="module" src="particle-B4l6X8oe.js"></script>
+
+    <link rel="stylesheet" href="./app-CxQuUA_U.css" />
+    <link rel="stylesheet" href="./category-DSou5mCS.css" />
+    <link rel="stylesheet" href="./content-BWezdQuT.css" />
+    <link rel="stylesheet" href="./swiper-bundle-DrFcrWHL.css" />
+    <script type="module" src="./app-BjCBnTiP.js"></script>
+    <script type="module" src="./main-BSIIHdi1.js"></script>
+    <script type="module" src="./screen-size-Z484b86h.js"></script>
+    <script type="module" src="./particle-B4l6X8oe.js"></script>
 </head>
 <body class="flex justify-center items-center box">
 <div id="tsparticles"></div>
@@ -72,7 +73,7 @@
 
 <section id="animation_container" class="hidden justify-center items-center h-full w-full">
     <div class="flex flex-col justify-center items-center">
-        <p class="text-center text-white"></p>
+        <p class="text-center"></p>
         <img src="img/lab-01.jpg" />
     </div>
 </section>
@@ -83,8 +84,25 @@
         <div class="swiper-wrapper" id="swiper_wrapper"></div>
         <div class="swiper-pagination content-pagination" style="position:fixed;bottom:2%;"></div>
     </div>
+
+
+    <article class="hidden justify-center items-center h-full min-w-full" id="video_wrapper">
+        <video id="myVideo" class="w-[40%] max-h-[70dvh]" controls>
+            <source src="video/video-01.mp4" type="video/mp4">
+        </video>
+        <aside class="flex flex-col justify-center items-center gap-6">
+            <button id="chapter1" class="text-white">Chapter1</button>
+            <button id="chapter2" class="text-white">Chapter2</button>
+            <button id="chapter3" class="text-white">Chapter3</button>
+        </aside>
+    </article>
+
 </section>
 
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-snow@3/tsparticles.preset.snow.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-big-circles@3/tsparticles.preset.bigCircles.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-links@3/tsparticles.preset.links.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-sea-anemone@3/tsparticles.preset.seaAnemone.bundle.min.js"></script>
+
 </body>
 </html>
