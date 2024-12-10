@@ -11,16 +11,13 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
     <!-- Styles / Scripts -->
-
     <link rel="stylesheet" href="./app-DQ7B5TVh.css" />
     <link rel="stylesheet" href="./category-DSou5mCS.css" />
-    <link rel="stylesheet" href="./content-DIZt1TA3.css" />
+    <link rel="stylesheet" href="./content--7HMPD1k.css" />
     <link rel="stylesheet" href="./loading-DQUlhwDo.css" />
-    <link rel="stylesheet" href="./main-SE3tJ3Hi.css" />
     <link rel="stylesheet" href="./swiper-bundle-DrFcrWHL.css" />
-
     <script type="module" src="./app-BjCBnTiP.js"></script>
-    <script type="module" src="./main-DWfaHvTs.js"></script>
+    <script type="module" src="./main-SvBdaSUJ.js"></script>
     <script type="module" src="./screen-size-CBgH-IcS.js"></script>
     <script type="module" src="./particle-B4l6X8oe.js"></script>
     <script type="module" src="./loading-VQJZZlu2.js"></script>
@@ -28,7 +25,7 @@
 
 <body class="flex justify-center items-center">
 
-
+    
     <section id="loading_container" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <div class="loading">
             <div class="dot"></div>
@@ -40,13 +37,13 @@
         <h1 class="pt-10 text-white text-4xl text-center">システム準備中</h1>
     </section>
 
-
+    
     <div id="tsparticles"></div>
 
-
+    
     <div id="slide" class="slide"></div>
 
-
+    
     <div class="fixed top-0 w-full flex items-center justify-center min-h-[8dvh]">
         <h1 class="text-2xl text-white font-bold absolute left-[4%] top-1/2 transform -translate-y-1/2">三重大学紹介</h1>
         <aside class="flex items-center gap-4 absolute right-[2%] top-1/2 transform -translate-y-1/2">
@@ -62,7 +59,7 @@
 
     <!--メニュー-->
     <section class="flex justify-center items-center h-full w-full fade-in" id="category_container">
-
+        
         <div class="swiper categorySwiper">
             <div class="swiper-wrapper">
                 <!-- Swiper Slides -->
@@ -74,6 +71,7 @@
     <p class="text-center text-2xl border-b border-solid border-black w-[90%]">工学部</p>
     <img src="img/lab-02.jpg" class="p-6"/>
 </div>
+                
                 <div class="swiper-slide category-slide border border-solid border-black rounded-lg py-2 bg-slide-default" id="1">
     <p class="text-center text-2xl border-b border-solid border-black w-[90%]">ドローン映像</p>
     <img src="img/lab-01.jpg" class="p-6"/>
@@ -82,14 +80,18 @@
     <p class="text-center text-2xl border-b border-solid border-black w-[90%]">工学部</p>
     <img src="img/lab-02.jpg" class="p-6"/>
 </div>
+
+                
+
+
+
+
+
             </div>
         </div>
-
-        <!-- Pagination -->
-        <div class="swiper-pagination category-pagination" style="position:fixed;bottom:2%;"></div>
     </section>
 
-
+    
     <section id="animation_container" class="hidden justify-center items-center h-full w-full">
         <div class="flex flex-col justify-center items-center">
             <p class="text-center"></p>
@@ -97,11 +99,11 @@
         </div>
     </section>
 
-
+    
     <section id="contents_container" class="hidden justify-center items-center h-full w-full py-20">
 
-
-        <div class="swiper contentSwiper hidden" id="lab_container">
+        
+        <div class="hidden swiper swiper-2" id="container_2">
             <div class="swiper-wrapper">
                 <div class="swiper-slide relative overflow-hidden">
     <!-- サムネイル -->
@@ -224,10 +226,189 @@
 </div>
 
             </div>
-            <div class="swiper-pagination content-pagination" style="position:fixed;bottom:2%;"></div>
         </div>
 
+        
+        <div class="hidden swiper swiper-3" id="container_3">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide relative overflow-hidden">
+    <!-- サムネイル -->
+    <img
+        src="img/thumbnail-01.jpeg"
+        alt="Video Thumbnail"
+        class="absolute w-full cursor-pointer z-10 thumbnail"
+    >
+    <video
+        class="w-full h-full video"
+        controls
+        style="display: none;">
+        <source src="video/test-video.MOV" type="video/mp4">
+    </video>
+</div>
 
+                <div class="swiper-slide relative overflow-hidden">
+    <!-- サムネイル -->
+    <img
+        src="img/thumbnail-02.jpg"
+        alt="Video Thumbnail"
+        class="absolute w-full cursor-pointer z-10 thumbnail"
+    >
+    <video
+        class="w-full h-full video"
+        controls
+        style="display: none;">
+        <source src="video/test-video.MOV" type="video/mp4">
+    </video>
+</div>
+
+            </div>
+        </div>
+
+        
+        <div class="hidden swiper swiper-4" id="container_4">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide relative overflow-hidden">
+    <!-- サムネイル -->
+    <img
+        src="img/thumbnail-03.jpg"
+        alt="Video Thumbnail"
+        class="absolute w-full cursor-pointer z-10 thumbnail"
+    >
+    <video
+        class="w-full h-full video"
+        controls
+        style="display: none;">
+        <source src="video/test-video.MOV" type="video/mp4">
+    </video>
+</div>
+
+                <div class="swiper-slide relative overflow-hidden">
+    <!-- サムネイル -->
+    <img
+        src="img/thumbnail-04.png"
+        alt="Video Thumbnail"
+        class="absolute w-full cursor-pointer z-10 thumbnail"
+    >
+    <video
+        class="w-full h-full video"
+        controls
+        style="display: none;">
+        <source src="video/test-video.MOV" type="video/mp4">
+    </video>
+</div>
+
+            </div>
+        </div>
+
+        
+        <div class="hidden swiper swiper-5" id="container_5">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide relative overflow-hidden">
+    <!-- サムネイル -->
+    <img
+        src="img/thumbnail-05.png"
+        alt="Video Thumbnail"
+        class="absolute w-full cursor-pointer z-10 thumbnail"
+    >
+    <video
+        class="w-full h-full video"
+        controls
+        style="display: none;">
+        <source src="video/test-video.MOV" type="video/mp4">
+    </video>
+</div>
+
+                <div class="swiper-slide relative overflow-hidden">
+    <!-- サムネイル -->
+    <img
+        src="img/thumbnail-06.jpg"
+        alt="Video Thumbnail"
+        class="absolute w-full cursor-pointer z-10 thumbnail"
+    >
+    <video
+        class="w-full h-full video"
+        controls
+        style="display: none;">
+        <source src="video/test-video.MOV" type="video/mp4">
+    </video>
+</div>
+
+            </div>
+        </div>
+
+        
+        <div class="hidden swiper swiper-6" id="container_6">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide relative overflow-hidden">
+    <!-- サムネイル -->
+    <img
+        src="img/thumbnail-07.jpg"
+        alt="Video Thumbnail"
+        class="absolute w-full cursor-pointer z-10 thumbnail"
+    >
+    <video
+        class="w-full h-full video"
+        controls
+        style="display: none;">
+        <source src="video/test-video.MOV" type="video/mp4">
+    </video>
+</div>
+
+                <div class="swiper-slide relative overflow-hidden">
+    <!-- サムネイル -->
+    <img
+        src="img/thumbnail-08.jpg"
+        alt="Video Thumbnail"
+        class="absolute w-full cursor-pointer z-10 thumbnail"
+    >
+    <video
+        class="w-full h-full video"
+        controls
+        style="display: none;">
+        <source src="video/test-video.MOV" type="video/mp4">
+    </video>
+</div>
+
+            </div>
+        </div>
+
+        
+        <div class="hidden swiper swiper-7" id="container_7">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide relative overflow-hidden">
+    <!-- サムネイル -->
+    <img
+        src="img/lab-01.jpg"
+        alt="Video Thumbnail"
+        class="absolute w-full cursor-pointer z-10 thumbnail"
+    >
+    <video
+        class="w-full h-full video"
+        controls
+        style="display: none;">
+        <source src="video/test-video.MOV" type="video/mp4">
+    </video>
+</div>
+
+                <div class="swiper-slide relative overflow-hidden">
+    <!-- サムネイル -->
+    <img
+        src="img/lab-02.jpg"
+        alt="Video Thumbnail"
+        class="absolute w-full cursor-pointer z-10 thumbnail"
+    >
+    <video
+        class="w-full h-full video"
+        controls
+        style="display: none;">
+        <source src="video/test-video.MOV" type="video/mp4">
+    </video>
+</div>
+
+            </div>
+        </div>
+
+        
         <article class="hidden flex-col justify-center items-center gap-8 h-full min-w-full" id="video_container">
             <video id="myVideo" class="w-[70%] max-h-[70dvh]" controls>
                 <source src="video/video-01.mp4" type="video/mp4">
