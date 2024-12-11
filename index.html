@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>三重大学紹介</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
     <!-- Styles / Scripts -->
-            <link rel="stylesheet" href="./app-CL1t01pO.css" />
+    <link rel="stylesheet" href="./app-CL1t01pO.css" />
     <link rel="stylesheet" href="./category-CbReq13B.css" />
     <link rel="stylesheet" href="./content-yRipf2E_.css" />
     <link rel="stylesheet" href="./loading-BHcLhuZv.css" />
@@ -20,7 +20,7 @@
     <script type="module" src="./main-C-TcLcwT.js"></script>
     <script type="module" src="./screen-size-CBgH-IcS.js"></script>
     <script type="module" src="./particle-B4l6X8oe.js"></script>
-    <script type="module" src="./loading-BxM5pQG0.js"></script>  
+    <script type="module" src="./loading-BxM5pQG0.js"></script>   
 </head>
 
 <body class="flex justify-center items-center disable-click">
@@ -63,30 +63,39 @@
         <div class="swiper categorySwiper">
             <div class="swiper-wrapper">
                 <!-- Swiper Slides -->
+                <div class="swiper-slide category-slide border border-solid border-black rounded-lg py-2 bg-slide-default" id="7">
+    <p class="text-center text-2xl border-b border-solid border-black w-[90%]">地域イノベーション学研究科</p>
+    <img src="img/category-06.jpg" class="p-6"/>
+</div>
                 <div class="swiper-slide category-slide border border-solid border-black rounded-lg py-2 bg-slide-default" id="1">
     <p class="text-center text-2xl border-b border-solid border-black w-[90%]">ドローン映像</p>
     <img src="img/lab-01.jpg" class="p-6"/>
 </div>
                 <div class="swiper-slide category-slide border border-solid border-black rounded-lg py-2 bg-slide-default" id="2">
-    <p class="text-center text-2xl border-b border-solid border-black w-[90%]">工学部</p>
-    <img src="img/lab-02.jpg" class="p-6"/>
+    <p class="text-center text-2xl border-b border-solid border-black w-[90%]">工学部・研究科</p>
+    <img src="img/category-01.jpg" class="p-6"/>
 </div>
                 
-                <div class="swiper-slide category-slide border border-solid border-black rounded-lg py-2 bg-slide-default" id="1">
-    <p class="text-center text-2xl border-b border-solid border-black w-[90%]">ドローン映像</p>
-    <img src="img/lab-01.jpg" class="p-6"/>
-</div>
-                <div class="swiper-slide category-slide border border-solid border-black rounded-lg py-2 bg-slide-default" id="2">
-    <p class="text-center text-2xl border-b border-solid border-black w-[90%]">工学部</p>
-    <img src="img/lab-02.jpg" class="p-6"/>
-</div>
+
+
 
                 
-
-
-
-
-
+                <div class="swiper-slide category-slide border border-solid border-black rounded-lg py-2 bg-slide-default" id="3">
+    <p class="text-center text-2xl border-b border-solid border-black w-[90%]">教育学部・研究科</p>
+    <img src="img/category-02.jpg" class="p-6"/>
+</div>
+                <div class="swiper-slide category-slide border border-solid border-black rounded-lg py-2 bg-slide-default" id="4">
+    <p class="text-center text-2xl border-b border-solid border-black w-[90%]">人文学部・研究科</p>
+    <img src="img/category-03.jpg" class="p-6"/>
+</div>
+                <div class="swiper-slide category-slide border border-solid border-black rounded-lg py-2 bg-slide-default" id="5">
+    <p class="text-center text-2xl border-b border-solid border-black w-[90%]">医学部・研究科</p>
+    <img src="img/category-04.jpg" class="p-6"/>
+</div>
+                <div class="swiper-slide category-slide border border-solid border-black rounded-lg py-2 bg-slide-default" id="6">
+    <p class="text-center text-2xl border-b border-solid border-black w-[90%]">生物資源学部・研究科</p>
+    <img src="img/category-05.jpg" class="p-6"/>
+</div>
             </div>
         </div>
     </section>
@@ -103,8 +112,23 @@
     <section id="contents_container" class="hidden justify-center items-center h-full w-full py-20">
 
         
-        <div class="hidden swiper swiper-2" id="container_2">
+        <div class="hidden swiper swiper-2 hideContainer" id="container_2">
             <div class="swiper-wrapper">
+                <div class="swiper-slide relative overflow-hidden px-[0.7rem]">
+    <!-- サムネイル -->
+    <img
+        src="img/lab-08.png"
+        alt="Video Thumbnail"
+        class="m-auto w-auto h-full cursor-pointer z-10 thumbnail "
+    >
+    <video
+        class="w-0 h-0 video"
+        controls
+        style="display: none;">
+        <source src="video/lab-01.mp4" type="video/mp4">
+    </video>
+</div>
+
                 <div class="swiper-slide relative overflow-hidden px-[0.7rem]">
     <!-- サムネイル -->
     <img
@@ -207,21 +231,6 @@
         controls
         style="display: none;">
         <source src="video/lab-07.mp4" type="video/mp4">
-    </video>
-</div>
-
-                <div class="swiper-slide relative overflow-hidden px-[0.7rem]">
-    <!-- サムネイル -->
-    <img
-        src="img/lab-08.png"
-        alt="Video Thumbnail"
-        class="m-auto w-auto h-full cursor-pointer z-10 thumbnail "
-    >
-    <video
-        class="w-0 h-0 video"
-        controls
-        style="display: none;">
-        <source src="video/lab-08.mp4" type="video/mp4">
     </video>
 </div>
 
@@ -408,50 +417,55 @@
             </div>
         </div>
 
+        
+        <div class="hidden swiper swiper-3 hideContainer" id="container_3">
+            <div class="swiper-wrapper">
 
 
+                <h1 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-4xl text-white z-100 font-bold">No Contents</h1>
+            </div>
+        </div>
+
+        
+        <div class="hidden swiper swiper-4 hideContainer" id="container_4">
+            <div class="swiper-wrapper">
 
 
+                <h1 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-4xl text-white z-100 font-bold">No Contents</h1>
+            </div>
+        </div>
+
+        
+        <div class="hidden swiper swiper-5 hideContainer" id="container_5">
+            <div class="swiper-wrapper">
 
 
+                <h1 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-4xl text-white z-100 font-bold">No Contents</h1>
+            </div>
+        </div>
+
+        
+        <div class="hidden swiper swiper-6 hideContainer" id="container_6">
+            <div class="swiper-wrapper">
 
 
+                <h1 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-4xl text-white z-100 font-bold">No Contents</h1>
+            </div>
+        </div>
+
+        
+        <div class="hidden swiper swiper-7 hideContainer" id="container_7">
+            <div class="swiper-wrapper">
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                <h1 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-4xl text-white z-100 font-bold">No Contents</h1>
+            </div>
+        </div>
 
         
         <article class="hidden flex-col justify-center items-center gap-8 h-full min-w-full" id="video_container">
             <video id="myVideo" class="w-[70%] max-h-[70dvh]" controls>
-                <source src="video/video-01.mp4" type="video/mp4">
+                <source src="video/drone.mp4" type="video/mp4">
             </video>
             <aside class="flex justify-center items-center gap-6">
                 <div class="btn-wrap" id="chapter1">
